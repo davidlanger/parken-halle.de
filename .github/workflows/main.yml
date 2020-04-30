@@ -1,3 +1,8 @@
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
