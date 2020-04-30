@@ -1,6 +1,6 @@
 import React from "react";
 import BackLink from "../components/BackLink";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 
 const SecondPage = () => (
   <Layout>

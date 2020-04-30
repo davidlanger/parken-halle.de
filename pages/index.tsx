@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react';
 import { css, jsx } from '@emotion/core';
 import styled from '@emotion/styled';
 import BigRowLink from '../components/BigRowLink';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import PriceTable from '../components/PriceTable';
 import MapPropped from './index/map';
 
