@@ -15,7 +15,7 @@ type BackLinkProps = {
 
 export default function BackLink({ to, children }: BackLinkProps) {
   return (
-    <Link href={to || '/'}>
+    <Link href={to || '/'} passHref>
       <BackLinkStyled>{children || 'Zurück'}</BackLinkStyled>
     </Link>
   );
