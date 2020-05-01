@@ -205,7 +205,7 @@ const IndexPage = () => (
     <div>
       <LeftColumn />
       <RightColumn />
-      <Badge>Aktuell alle Parkplätze belegt!</Badge>
+      <Badge>Aktuell alle Dauerparkplätze belegt!</Badge>
       <br style={{ clear: 'both' }} />
     </div>
   </Layout>
