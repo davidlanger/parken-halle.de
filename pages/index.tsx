@@ -75,13 +75,13 @@ class LeftColumn extends React.Component<object, LeftColumnState> {
         <H2MobileHidden>Wo in Halle parken?</H2MobileHidden>
         <p>
           Parken Sie doch mal direkt im Zentrum &ndash; rund um die Uhr in drei
-          Tiefgaragen:{' '}
+          Tiefgaragen: Unter{' '}
           <LocationLink
             locationKey="evh"
             selectedLocation={selectedLocation}
             handleMouse={this.handleMouseOver.bind(this)}
           >
-            Unter Stadtwerke/EVH
+            Stadtwerke/EVH
           </LocationLink>
           , unter{' '}
           <LocationLink
@@ -91,43 +91,17 @@ class LeftColumn extends React.Component<object, LeftColumnState> {
           >
             Friedrich-G.-Händelhalle
           </LocationLink>{' '}
-          und{' '}
+          und am{' '}
           <LocationLink
             locationKey="finanzamt"
             selectedLocation={selectedLocation}
             handleMouse={this.handleMouseOver.bind(this)}
           >
-            am Hallmarkt unter REWE City
+            Hallmarkt unter REWE City
           </LocationLink>
           . Die Zufahrt erfolgt jeweils über die Herrenstraße.
         </p>
         <MapPropped selectedLocation={selectedLocation} />
-        <br />
-        <ul>
-          {locations.map((location) => (
-            <li
-              key={location.key}
-              onMouseEnter={() => this.handleMouseOver(location.key)}
-              onMouseLeave={() => this.handleMouseOver()}
-              css={css`
-                margin-bottom: 0;
-              `}
-            >
-              <span
-                style={{
-                  cursor: 'default',
-                  borderBottom: '1px solid rgba(255,255,255, 0)',
-                  borderBottomColor:
-                    selectedLocation === location.key
-                      ? '#ccc'
-                      : 'rgba(255,255,255, 0)',
-                }}
-              >
-                öffentliche TG {location.label}
-              </span>
-            </li>
-          ))}
-        </ul>
       </ContentLeft>
     );
   }
