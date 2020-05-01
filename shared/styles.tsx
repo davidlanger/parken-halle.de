@@ -28,7 +28,8 @@ export const globalStyles = (
           margin: 0;
         }
 
-        font-family: 'Georgia', 'Cambria', serif;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         font-weight: 400;
       }
 
@@ -38,8 +39,10 @@ export const globalStyles = (
       h4 {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-weight: 200;
+        color: #003082;
       }
-          
+
       a {
         color: inherit;
         text-decoration: underline;
@@ -63,8 +66,6 @@ export const globalStyles = (
       h1,
       h2 {
         padding: 0;
-        color: hsla(0, 0%, 0%, 0.5);
-        font-weight: 400;
         text-rendering: optimizeLegibility;
       }
 
