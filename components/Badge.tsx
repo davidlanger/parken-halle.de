@@ -15,7 +15,17 @@ const Badge = styled.div(
   width: 9em;
   height: 9em;
   transform: rotate(12deg);
-  display: ${hidden ? 'hidden' : 'block'}
+  display: ${hidden ? 'hidden' : 'block'};
+
+  @media (max-width: 1050px) {
+    top: -6em;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2vw;
+    top: -3.5em;
+    right: 0.5em;
+  }
 `
 );
 
