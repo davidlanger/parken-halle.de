@@ -81,12 +81,6 @@ function PriceTable() {
         <PriceRow label="Dauerparkplätze" price="ab 90,&ndash; &euro;" />
         <PriceRow label="Sondertickets" price="auf Anfrage" />
       </PriceSection>
-      <PriceSection
-        title="Parkplatz Hallorenring"
-        hint="Alle Preise zzgl. gesetzlicher Mwst."
-      >
-        <PriceRow label="Dauerparkplätze" price="ab 60,&ndash; &euro;" />
-      </PriceSection>
     </div>
   );
 }
