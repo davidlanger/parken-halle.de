@@ -4,5 +4,8 @@ Build using next.js with:
 
 * Typescript
 * emotion
-* Automatic deployment via SFTP
 
+Code style & deplyoment:
+* eslint
+* prettier
+* Automatic deployment via SFTP
