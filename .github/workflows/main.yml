@@ -4,8 +4,8 @@ on:
       - master
 
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  build-and-deploy:
+    name: Build and deploy via FTP
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -24,7 +24,7 @@ jobs:
       - name: List output files
         run: ls
 
-      - name: FTP-Deploy-Action
+      - name: Upload
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
