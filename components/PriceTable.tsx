@@ -16,7 +16,7 @@ const TDPrice = styled('td')`
   text-align: right;
 `;
 
-const additionalInfo = css`
+const TDAdditionalInfo = styled('td')`
   text-align: right;
   font-size: 12px;
   color: #999;
@@ -54,9 +54,7 @@ function PriceSection({ title, children, hint }: PriceSectionProps) {
         {hint ? (
           <tfoot>
             <tr>
-              <td colSpan={2} css={additionalInfo}>
-                {hint}
-              </td>
+              <TDAdditionalInfo colSpan={2}>{hint}</TDAdditionalInfo>
             </tr>
           </tfoot>
         ) : null}

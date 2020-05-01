@@ -30,16 +30,6 @@ export const globalStyles = (
 
         font-family: 'Georgia', 'Cambria', serif;
         font-weight: 400;
-        font-size: 16px;
-      }
-
-      html {
-        font-size: 100%;
-        line-height: ${rythm};
-      }
-
-      p {
-        margin-bottom: ${rythm}rem;
       }
 
       h1,
@@ -48,6 +38,17 @@ export const globalStyles = (
       h4 {
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      }
+
+      /* vertical rythm */
+      html {
+        font-size: 100%;
+        line-height: ${rythm};
+      }
+
+      p,
+      table {
+        margin-bottom: ${rythm}rem;
       }
 
       h1,
