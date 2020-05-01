@@ -53,10 +53,10 @@ const places = {
     position: { lat: 51.481705, lng: 11.964253 },
     info: 'Tiefgarage unter Händelhalle',
   },
-  finanzamt: {
+  hallmarkt: {
     icon: parkingGarageIcon,
     position: { lat: 51.4817, lng: 11.9656 },
-    info: 'Tiefgarage unter Finanzamt, nähe Innenstadt',
+    info: 'Tiefgarage Hallmarkt, REWE City',
   },
 };
 
