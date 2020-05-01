@@ -9,11 +9,11 @@ const Badge = styled.div(
   position: absolute;
   text-align: center;
   padding: 0.7em;
-  padding-top: 1.55em;
+  padding-top: 1.8em;
   right: 6em;
   top: -1em;
-  width: 8em;
-  height: 8em;
+  width: 9em;
+  height: 9em;
   transform: rotate(12deg);
   display: ${hidden ? 'hidden' : 'block'}
 `
