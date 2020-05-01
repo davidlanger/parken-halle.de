@@ -10,6 +10,7 @@ const BigRowLink = styled('a')`
   border-radius: 10px;
   transition: box-shadow 0.5s, transform 0.5s;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 9px;
+  text-decoration: none;
 
   :hover,
   :active {
