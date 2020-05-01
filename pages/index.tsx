@@ -145,6 +145,11 @@ const ContactItem = styled('div')`
   flex-grow: 1;
 `;
 
+const TextLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+`;
+
 const RightColumn = () => (
   <ContentRight>
     <PriceTable />
@@ -161,13 +166,13 @@ const RightColumn = () => (
     <ContactRow>
       <ContactLabel> </ContactLabel>
       <ContactItem>
-        <a href="tel:+49 176 24132876">0176 24132876</a>
+        <TextLink href="tel:+49 176 24132876">0176 24132876</TextLink>
       </ContactItem>
     </ContactRow>
     <ContactRow>
       <ContactLabel>oder</ContactLabel>
       <ContactItem>
-        <a href="tel:+49 345 6785666">0345 6785666</a>
+        <TextLink href="tel:+49 345 6785666">0345 6785666</TextLink>
       </ContactItem>
     </ContactRow>
     <br />
