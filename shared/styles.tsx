@@ -39,6 +39,15 @@ export const globalStyles = (
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
           Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
       }
+          
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: #2eaeea;
+        text-decoration: none;
+      }
 
       /* vertical rythm */
       html {
