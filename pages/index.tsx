@@ -93,7 +93,7 @@ class LeftColumn extends React.Component<object, LeftColumnState> {
           </LocationLink>{' '}
           und am{' '}
           <LocationLink
-            locationKey="finanzamt"
+            locationKey="hallmarkt"
             selectedLocation={selectedLocation}
             handleMouse={this.handleMouseOver.bind(this)}
           >
