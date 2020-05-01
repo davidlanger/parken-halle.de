@@ -7,6 +7,7 @@ import BigRowLink from '../components/BigRowLink';
 import Layout from '../components/layout';
 import PriceTable from '../components/PriceTable';
 import MapPropped from './index/map';
+import Badge from '../components/Badge';
 
 interface LocationLinkProps {
   locationKey: string;
@@ -204,7 +205,7 @@ const IndexPage = () => (
     <div>
       <LeftColumn />
       <RightColumn />
-      {/* <Badge>Aktuell alle Parkplätze belegt!</Badge> */}
+      <Badge>Aktuell alle Parkplätze belegt!</Badge>
       <br style={{ clear: 'both' }} />
     </div>
   </Layout>

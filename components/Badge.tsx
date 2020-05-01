@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
-const Badge = styled('div')`
+const Badge = styled.div(
+  ({ hidden }) => `
   border-radius: 50%;
   box-sizing: border-box;
   background: #0f2e7c;
@@ -14,6 +15,8 @@ const Badge = styled('div')`
   width: 7em;
   height: 7em;
   transform: rotate(15deg);
-`;
+  display: ${hidden ? 'hidden' : 'block'}
+`
+);
 
 export default Badge;
