@@ -167,7 +167,7 @@ const ContactLabel = styled('div')`
 `;
 const ContactItem = styled('div')`
   flex: 1;
-  flex-gorw: 1;
+  flex-grow: 1;
 `;
 
 const RightColumn = () => (
