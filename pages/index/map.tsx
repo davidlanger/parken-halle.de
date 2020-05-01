@@ -38,11 +38,6 @@ const parkingGarageIcon = '/images/icon-parking-garage.png';
 const parkingPlaceIcon = '/images/icon-parking-space.png';
 
 const places = {
-  parkplatz: {
-    position: { lat: 51.480234, lng: 11.965311 },
-    info: 'Parkplatz Hallorenring',
-    icon: parkingPlaceIcon,
-  },
   evh: {
     icon: parkingGarageIcon,
     position: { lat: 51.480308, lng: 11.9641 },
