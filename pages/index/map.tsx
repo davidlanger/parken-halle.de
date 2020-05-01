@@ -91,11 +91,11 @@ function createLines(places: Places, selectedLocation: string) {
       { lat: 51.48137611011531, lng: 11.963850483298302 },
       places.haendelhalle.position,
     ],
-    finanzamt: [
+    hallmarkt: [
       places.entry.position,
       { lat: 51.48083489840664, lng: 11.963550075888634 },
       { lat: 51.48137611011531, lng: 11.963850483298302 },
-      places.finanzamt.position,
+      places.hallmarkt.position,
     ],
   };
   return Object.keys(lines).map((key) => (
