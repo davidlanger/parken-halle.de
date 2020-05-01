@@ -73,7 +73,7 @@ class LeftColumn extends React.Component<object, LeftColumnState> {
         {' '}
         <H2MobileHidden>Wo in Halle parken?</H2MobileHidden>
         <p>
-          Parken SIE DOCH MAL direkt im Zentrum &ndash; rund um die Uhr in drei
+          Parken Sie doch mal direkt im Zentrum &ndash; rund um die Uhr in drei
           Tiefgaragen:{' '}
           <LocationLink
             locationKey="evh"
