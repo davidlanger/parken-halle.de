@@ -1,9 +1,8 @@
 import React, { ReactNode } from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link';
 import Head from 'next/head';
-import { css } from '@emotion/core';
 import styled from '@emotion/styled';
+import { Footer } from './Footer';
 
 export const siteTitle = 'Parken in Halle Spitze';
 
@@ -19,6 +18,7 @@ const Logo = styled.img`
 const Caption = styled('h1')`
   margin: 0;
   padding: 2px 10px;
+  margin: 1.0875rem 0 1.0875rem 100px;
   display: inline-block;
   color: #003082;
   @media (max-width: 760px) {
@@ -35,40 +35,11 @@ const StyledHeader = styled.div`
   align-items: center;
 `;
 
-const CaptionPadder = styled.div`
-  padding: 1.0875rem 0 1.0875rem 100px;
-`;
-
 const Header = () => (
   <StyledHeader>
     <Logo src="/images/logo.svg" />
-    <CaptionPadder>
-      <Caption>Parken in Halle-Spitze</Caption>
-    </CaptionPadder>
+    <Caption>Parken in Halle-Spitze</Caption>
   </StyledHeader>
-);
-
-const FooterX = styled.footer`
-  clear: both;
-  padding: 10px 25px;
-  margin-top: 22px;
-  border-top: 1px solid #cdcdcd;
-  text-align: center;
-  position: relative;
-  a {
-    font-size: 12px;
-  }
-  a:hover {
-    color: #003082;
-  }
-`;
-
-const Footer = () => (
-  <FooterX css={css``}>
-    <Link href="/impressum">Impressum</Link>{' '}
-    <Link href="/datenschutz">Datenschutzerklärung</Link>
-    <br style={{ clear: 'both' }} />
-  </FooterX>
 );
 
 const PageWrapper = styled('div')`
@@ -110,9 +81,5 @@ const TemplateWrapper = ({ children }: TemplateWrapperProps) => (
     </PageWrapper>
   </div>
 );
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-};
 
 export default TemplateWrapper;
