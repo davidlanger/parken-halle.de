@@ -79,7 +79,7 @@ function PriceTable() {
         />
         <PriceRow label="Tageshöchstsatz (24h)" price="9,&ndash; &euro;" />
         <PriceRow label="Dauerparkplätze" price="ab 90,&ndash; &euro;" />
-        /*<PriceRow label="Sondertickets" price="auf Anfrage" /*/>
+        {/*<PriceRow label="Sondertickets" price="auf Anfrage" />*/}
       </PriceSection>
     </div>
   );
