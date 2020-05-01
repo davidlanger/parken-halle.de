@@ -5,6 +5,10 @@ const rythm = 1.6666666666666667;
 export const globalStyles = (
   <Global
     styles={css`
+      * {
+        box-sizing: border-box;
+      }
+
       body {
         background-color: #efefef;
         background-image: url(/images/header-bg.jpg);
