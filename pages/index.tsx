@@ -97,7 +97,7 @@ class LeftColumn extends React.Component<object, LeftColumnState> {
             selectedLocation={selectedLocation}
             handleMouse={this.handleMouseOver.bind(this)}
           >
-            am Hallmarkt unter City-Rewe
+            am Hallmarkt unter REWE City
           </LocationLink>
           . Die Zufahrt erfolgt jeweils über die Herrenstraße.
         </p>
