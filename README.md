@@ -1,1 +1,8 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# Parken-halle.de
+
+Build using next.js with:
+
+* Typescript
+* emotion
+* Automatic deployment via SFTP
+
